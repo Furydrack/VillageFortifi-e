@@ -1,0 +1,487 @@
+fileFormatVersion: 2
+guid: 168543245a45ed849a4e0ec8b890c1c4
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bridge.002_BridgeWoodMaterial.002Mat
+    second: {fileID: 2100000, guid: 22c829aeecc1b204eabe7b0286b5c80a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: House.003_MatBois.002Mat
+    second: {fileID: 2100000, guid: ffc9d8b8e85eb654cbba0fb685626839, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: House.003_MatMeaubles.002Mat
+    second: {fileID: 2100000, guid: 54d7c730192b8934c96d94a073fb2597, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: House.003_MatMur.002Mat
+    second: {fileID: 2100000, guid: 7d5e9e847057a1640bbd4fd485992c67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: House.003_MatToit.002Mat
+    second: {fileID: 2100000, guid: ba57a41586f821c4cbe3156364c83576, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: House.004_MatBois.002Mat
+    second: {fileID: 2100000, guid: 9b2540887edf45d41a8a47be91cc3cf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: House.004_MatMeaubles.002Mat
+    second: {fileID: 2100000, guid: fc66307830fb174479702de014ec6494, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: House.004_MatMur.002Mat
+    second: {fileID: 2100000, guid: 88b2ba6379f6ada4eb772965730ed50c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: House.004_MatToit.002Mat
+    second: {fileID: 2100000, guid: 67e7fb05da1447740ac08d9ff0c44a2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HouseDistributionMat
+    second: {fileID: 2100000, guid: 0134d83505e23274e8b7abffafe981e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Landscape.001_BranchMaterial1Mat
+    second: {fileID: 2100000, guid: b47614a6e831e0742b6e4216d78fecec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Landscape.001_BranchMaterial2Mat
+    second: {fileID: 2100000, guid: a4ea3380f137c10499054f79f9f1cec2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Landscape.001_BranchMaterial3Mat
+    second: {fileID: 2100000, guid: bfffa15681476f1499b083cb784d203d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Landscape.001_Landscape_NormalOnly.004Mat
+    second: {fileID: 2100000, guid: f768a1a62e09ce147a7d50aa51166e45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Landscape.001_MatBoisMat
+    second: {fileID: 2100000, guid: 3771ff1e8d2912a40b0396feebb94af8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Landscape.001_MatMeaublesMat
+    second: {fileID: 2100000, guid: 7480fa158d96c184ebea5dbef851b9f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Landscape.001_MatMurMat
+    second: {fileID: 2100000, guid: 2f5f00d5ada2da143875271fcb6e002a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Landscape.001_MatToitMat
+    second: {fileID: 2100000, guid: 9d0ad4ca61beba444a6a5b80deba8da8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Landscape.001_TreeWoodMaterialMat
+    second: {fileID: 2100000, guid: a03fcceeb7293054e91a8a945092c850, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerBase.009_Stone.004Mat
+    second: {fileID: 2100000, guid: 0ce8cdb5243c4664880f22b82ce14365, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerBase.009_Window.005Mat
+    second: {fileID: 2100000, guid: 23d8eef27a9633943a1dc469397f79bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerBase.010_Stone.004Mat
+    second: {fileID: 2100000, guid: ca3d06dddefeca64facdc57bf3f48206, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerBase.010_Window.005Mat
+    second: {fileID: 2100000, guid: 2eb407a5cb54e0c49be2a17e145dc245, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerBase.011_Stone.003Mat
+    second: {fileID: 2100000, guid: a0389182bc4e1bc47ac724e74ac5cfc6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerBase.011_Window.004Mat
+    second: {fileID: 2100000, guid: 56484b12e30499148a125544773d2a84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerBase.012_Stone.003Mat
+    second: {fileID: 2100000, guid: 74d50f63c946cd54fa0b45e40e709302, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerBase.012_Window.004Mat
+    second: {fileID: 2100000, guid: 407f5d2f81d081f4d892092b2984bfba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerBase.013_Stone.004Mat
+    second: {fileID: 2100000, guid: 75c88e642d35fdc4aaf245b75dec3db0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerBase.013_Window.005Mat
+    second: {fileID: 2100000, guid: e02793ba7694cef46aeb5c627486e7bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerBase.014_Stone.003Mat
+    second: {fileID: 2100000, guid: 28b991ea77ef68f45ae11f7b69bde9a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerBase.014_Window.004Mat
+    second: {fileID: 2100000, guid: de9c4f6c1aa7ca147ab1fceef7cff0a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerBase.015_Stone.004Mat
+    second: {fileID: 2100000, guid: 387fb368f031df843bcf9011a5acbc18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerBase.015_Window.005Mat
+    second: {fileID: 2100000, guid: e1ca416dedab95447b96170ea2f91e37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerBase.016_Stone.004Mat
+    second: {fileID: 2100000, guid: f7697080327e63a44ba6a0031cf36e93, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerBase.016_Window.005Mat
+    second: {fileID: 2100000, guid: 5321faedef305334cb4f4419e3855a3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerRoof.004_Roof.002Mat
+    second: {fileID: 2100000, guid: 7b837f8ee126c6845991618931b07e9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerRoof.004_Wood.004Mat
+    second: {fileID: 2100000, guid: f3441c28510aefb4eb2d85d900ca5690, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerRoof.005_Roof.002Mat
+    second: {fileID: 2100000, guid: 2a6f6e8c0a9b68b49bbe4974d98e8d3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerRoof.005_Wood.004Mat
+    second: {fileID: 2100000, guid: 676cef655f9878340ad720be5d30c7df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerRoof.006_Roof.002Mat
+    second: {fileID: 2100000, guid: 8c6a3e757642e5f4983a026176a48127, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerRoof.006_Wood.004Mat
+    second: {fileID: 2100000, guid: 6bf7e111838136642b3f48449baa07a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerTop.006_Wood.005Mat
+    second: {fileID: 2100000, guid: 4ae4342297bf041459d6cf3ec44e185d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerTop.007_Wood.005Mat
+    second: {fileID: 2100000, guid: 8d6195fba6c2f6245b11cab8f9d409ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerTop.008_Wood.005Mat
+    second: {fileID: 2100000, guid: 981e8e638df0ec949a55bf6416a8c184, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerTop.009_Wood.005Mat
+    second: {fileID: 2100000, guid: b9d8cd26136296746b1a2c4d970eae15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TowerTop.010_Wood.005Mat
+    second: {fileID: 2100000, guid: f15354bbcbe650f4593724555f68ec60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TreeDistributionMat
+    second: {fileID: 2100000, guid: c3cd0f7635b438b47a75674ccb7af981, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.028_Material.006Mat
+    second: {fileID: 2100000, guid: 20a8225a732e8c342b1a10f17cf6748e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.029_Material.006Mat
+    second: {fileID: 2100000, guid: 8a487101cc7aedd47a5e051b3a994fd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.030_Material.006Mat
+    second: {fileID: 2100000, guid: b03f3aea304770f4c99f785709c58be3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.031_Material.006Mat
+    second: {fileID: 2100000, guid: 89c618689da3add41a4f1147220fad47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.032_Material.006Mat
+    second: {fileID: 2100000, guid: 09ad55e951ddfea47a5973b1981ee24e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.033_Material.006Mat
+    second: {fileID: 2100000, guid: fb581f23848457d4784737d83877e26b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.034_Material.006Mat
+    second: {fileID: 2100000, guid: b3611c623158255428bad91e29cff54e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.035_Material.006Mat
+    second: {fileID: 2100000, guid: 28e3ff321a9711f4a9954972bc318ffa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.036_Material.006Mat
+    second: {fileID: 2100000, guid: 5c8d49a033827394fa7c63f1f512661c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.037_Material.006Mat
+    second: {fileID: 2100000, guid: b6553273659d48d4c951a44185e58a92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.038_Material.006Mat
+    second: {fileID: 2100000, guid: 55f6976e5c2a3df48b5663ecb609a074, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.039_Material.006Mat
+    second: {fileID: 2100000, guid: 7b7a3331c0e9a5942867c18d7ede0ac9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.040_Material.006Mat
+    second: {fileID: 2100000, guid: f1512464bb849844db8d379f78bde6c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.041_Material.006Mat
+    second: {fileID: 2100000, guid: 1618a3773319a3a46900b6f201dc8a94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.042_Material.006Mat
+    second: {fileID: 2100000, guid: 02a6182a0b4be7942ac2493261e1e42b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.043_Material.006Mat
+    second: {fileID: 2100000, guid: 562d7fad55ee18447a165a6fde768d2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.044_Material.006Mat
+    second: {fileID: 2100000, guid: 56bc6272146bfaf4c984861e29a7e867, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.045_Material.006Mat
+    second: {fileID: 2100000, guid: efa0f909d17790a4f889bb3d66244f0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.046_Material.006Mat
+    second: {fileID: 2100000, guid: e85a3ab12024bfe4e920e6674e0ed932, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.047_Material.006Mat
+    second: {fileID: 2100000, guid: b4af4e9863db9574db95098318aca5f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.048_Material.006Mat
+    second: {fileID: 2100000, guid: 80d625f83e4b3e745a0df01d690b446d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.049_Material.006Mat
+    second: {fileID: 2100000, guid: 4feea764c97a5224bb83efa6e36929de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.050_Material.006Mat
+    second: {fileID: 2100000, guid: 8616621689f0c38488ee7adfc96af94c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.051_Material.006Mat
+    second: {fileID: 2100000, guid: 7469ac6b5eb4c374d850446a83213b53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.052_Material.006Mat
+    second: {fileID: 2100000, guid: 26e9a3e5f9394874e9462535781aa4f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.053_Material.006Mat
+    second: {fileID: 2100000, guid: 6e0e30e5fb60c5948aa84cfc751196b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall1.054_Material.006Mat
+    second: {fileID: 2100000, guid: 2be1baa9592ee0b4c9073c046f8410e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall2.002_Material.005Mat
+    second: {fileID: 2100000, guid: 77bbeb6837b38384ea06cdef7413a310, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: offMat
+    second: {fileID: 2100000, guid: 3edcf831b3db0a64da86267faa5a5269, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
