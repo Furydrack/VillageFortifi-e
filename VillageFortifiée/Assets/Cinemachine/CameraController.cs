@@ -19,6 +19,8 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (CameraManager.Instance.cinematicStart > 0)
+            return;
         // Changing Camera
         if(Input.anyKeyDown)
         {

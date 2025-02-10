@@ -13,11 +13,44 @@ MonoBehaviour:
   m_Name: Main Camera Custom Blends
   m_EditorClassIdentifier: 
   CustomBlends:
-  - From: 
-    To: 
+  - From: 1
+    To: 2
     Blend:
-      Style: 0
-      Time: 0
+      Style: 6
+      Time: 2
+      CustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 0
+        m_PostInfinity: 0
+        m_RotationOrder: 0
+  - From: 2
+    To: 3
+    Blend:
+      Style: 6
+      Time: 5
+      CustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 0
+        m_PostInfinity: 0
+        m_RotationOrder: 0
+  - From: 3
+    To: 4
+    Blend:
+      Style: 6
+      Time: 3
+      CustomCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 0
+        m_PostInfinity: 0
+        m_RotationOrder: 0
+  - From: 4
+    To: 5
+    Blend:
+      Style: 1
+      Time: 2
       CustomCurve:
         serializedVersion: 2
         m_Curve: []

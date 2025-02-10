@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
-
+using System.Collections;
+using Unity.Cinemachine;
 public class CameraManager : MonoBehaviour
 {
     public static CameraManager Instance;
@@ -9,6 +10,13 @@ public class CameraManager : MonoBehaviour
     private List<GameObject> _cameras;
     private int _currentCameraId;
     private bool _freeMove;
+    public int cinematicStart;
+
+    [SerializeField]
+    private int id = 0;
+
+    [SerializeField]
+    CinemachineBrain _brain;
 
     private Dictionary<int, (Vector3, Quaternion)> _savePos = new Dictionary<int, (Vector3, Quaternion)>();
     public bool FreeMove{
@@ -26,8 +34,8 @@ public class CameraManager : MonoBehaviour
         if(_cameras.Contains(null) || _cameras.Count == 0)
         {
             _cameras.Clear();
-            foreach(GameObject child in _cameras)
-                _cameras.Add(child);
+            for(int i=0; i < transform.childCount; i++)
+                _cameras.Add(transform.GetChild(i).gameObject);
         }
 
         // Add initials positions and rotations
@@ -39,20 +47,36 @@ public class CameraManager : MonoBehaviour
     }
 
 
+
+    private void Start()
+    {
+        StartCoroutine(AutoChangeCamera(_brain.CustomBlends.GetBlendForVirtualCameras($"{id}",$"{id+1}", _brain.DefaultBlend).BlendTime));
+            
+    }
+
+    IEnumerator AutoChangeCamera(float duration)
+    {
+        ChangeCamera(id);
+        yield return new WaitForSeconds(duration);
+        id++;
+        if(id < _cameras.Count-1)
+            StartCoroutine(AutoChangeCamera(_brain.CustomBlends.GetBlendForVirtualCameras($"{id}", $"{id+1}", _brain.DefaultBlend).BlendTime));
+    }
+
     public void ChangeCamera(int id)
     {
-        if(!ContainsCamera(id))
+        if(!ContainsCamera(id+1))
         {
             Debug.LogWarning("Wrong camera ID");
             return;
         }
-        if(id==_currentCameraId)
+        if(id+1==_currentCameraId)
             return;
 
         _cameras[_currentCameraId].SetActive(false);
 
-        _cameras[id].SetActive(true);
-        _currentCameraId = id;
+        _cameras[id+1].SetActive(true);
+        _currentCameraId = id + 1;
     }
 
     public void ResetCurrentCamera()
